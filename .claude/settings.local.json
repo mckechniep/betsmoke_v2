@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx prisma migrate dev:*)",
+      "Bash(npx prisma:*)",
+      "Bash(curl:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(./node_modules/.bin/tailwindcss:*)",
+      "Bash(npm install:*)",
+      "Bash(python3:*)",
+      "Bash(claude mcp --help:*)",
+      "Bash(claude mcp add-from-claude-desktop)",
+      "Bash(claude mcp list)",
+      "Bash(node scripts/seed-sportsmonks-types.js:*)",
+      "Bash(timeout 10 npm run dev:*)",
+      "mcp__SportsMonks_Docs__searchDocumentation",
+      "Bash(timeout 8 npm run dev:*)",
+      "Bash(node scripts/promote-admin.js:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npm run build:*)",
+      "Bash(sort -n echo 'Missing from corners endpoint:' comm -23 /tmp/fixtures_ids.txt /tmp/corners_ids.txt)",
+      "Bash(node -e:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}
